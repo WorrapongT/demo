@@ -1,0 +1,62 @@
+{"level":30,"time":"2023-10-26T11:29:03.797Z","pid":34303,"hostname":"BWT.local","msg":"Listening on 50128"}
+{"level":30,"time":"2023-10-26T11:29:03.863Z","pid":34303,"hostname":"BWT.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-26T11:29:03.864Z","pid":34303,"hostname":"BWT.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-26T11:29:03.866Z","pid":34303,"hostname":"BWT.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-26T11:29:03.866Z","pid":34303,"hostname":"BWT.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-26T11:29:03.868Z","pid":34303,"hostname":"BWT.local","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2023-10-26T11:29:04.123Z","pid":34303,"hostname":"BWT.local","msg":"End of node method newBrowser"}
+{"level":30,"time":"2023-10-26T11:29:04.126Z","pid":34303,"hostname":"BWT.local","msg":"Start of node method newPage"}
+{"level":30,"time":"2023-10-26T11:29:04.127Z","pid":34303,"hostname":"BWT.local","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2023-10-26T11:29:04.131Z","pid":34303,"hostname":"BWT.local","msg":"Changed active context"}
+{"level":30,"time":"2023-10-26T11:29:04.302Z","pid":34303,"hostname":"BWT.local","msg":"Video path: undefined"}
+{"level":30,"time":"2023-10-26T11:29:04.303Z","pid":34303,"hostname":"BWT.local","msg":"Changed active page"}
+{"level":30,"time":"2023-10-26T11:29:05.869Z","pid":34303,"hostname":"BWT.local","msg":"End of node method newPage"}
+{"level":30,"time":"2023-10-26T11:29:05.872Z","pid":34303,"hostname":"BWT.local","msg":"Start of node method typeText"}
+{"level":30,"time":"2023-10-26T11:29:05.873Z","pid":34303,"hostname":"BWT.local","msg":"Strict mode is enabled, find Locator with id=APjFqb in page."}
+{"level":30,"time":"2023-10-26T11:29:05.936Z","pid":34303,"hostname":"BWT.local","msg":"End of node method typeText"}
+{"level":30,"time":"2023-10-26T11:29:05.939Z","pid":34303,"hostname":"BWT.local","msg":"Start of node method click"}
+{"level":30,"time":"2023-10-26T11:29:05.939Z","pid":34303,"hostname":"BWT.local","msg":"Strict mode is enabled, find Locator with //html/body/div[1]/div[3]/form/div[1]/div[1]/div[4]/center/input[1] in page."}
+{"level":30,"time":"2023-10-26T11:29:06.125Z","pid":34303,"hostname":"BWT.local","msg":"End of node method click"}
+{"level":30,"time":"2023-10-26T11:29:06.128Z","pid":34303,"hostname":"BWT.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2023-10-26T11:29:06.128Z","pid":34303,"hostname":"BWT.local","msg":"Strict mode is enabled, find Locator with //h2/span[text()=\"โรบอท\"] in page."}
+{"level":30,"time":"2023-10-26T11:29:16.131Z","pid":34303,"hostname":"BWT.local","msg":"Error of node method  waitForElementState"}
+================= Original suppressed error =================
+locator.waitFor: Timeout 10000ms exceeded.
+=========================== logs ===========================
+waiting for locator('xpath=//h2/span[text()="โรบอท"]') to be visible
+============================================================
+    at waitForElementState (/Users/localhost/Library/Python/3.9/lib/python/site-packages/Browser/wrapper/index.js:8508:19)
+    at async PlaywrightServer.waitForElementsState (/Users/localhost/Library/Python/3.9/lib/python/site-packages/Browser/wrapper/index.js:10006:28) {
+  name: 'TimeoutError'
+}
+=============================================================
+{"level":30,"time":"2023-10-26T11:29:16.142Z","pid":34303,"hostname":"BWT.local","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2023-10-26T11:29:16.143Z","pid":34303,"hostname":"BWT.local","Take screenshot with options: ":{"path":"/Users/localhost/Desktop/gitlab_to_github/result/fail/browser/screenshot/fail-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2023-10-26T11:29:16.270Z","pid":34303,"hostname":"BWT.local","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2023-10-26T11:29:16.280Z","pid":34303,"hostname":"BWT.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-26T11:29:16.281Z","pid":34303,"hostname":"BWT.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-26T11:29:16.282Z","pid":34303,"hostname":"BWT.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-26T11:29:16.283Z","pid":34303,"hostname":"BWT.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-26T11:29:16.284Z","pid":34303,"hostname":"BWT.local","msg":"Changed active context"}
+{"level":30,"time":"2023-10-26T11:29:16.284Z","pid":34303,"hostname":"BWT.local","msg":"Changing current active page: page=7912f8b4-6743-41bc-bad0-b4a0a9acffbb"}
+{"level":30,"time":"2023-10-26T11:29:16.284Z","pid":34303,"hostname":"BWT.local","msg":"Changed active page"}
+{"level":30,"time":"2023-10-26T11:29:16.288Z","pid":34303,"hostname":"BWT.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-26T11:29:16.291Z","pid":34303,"hostname":"BWT.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-26T11:29:16.292Z","pid":34303,"hostname":"BWT.local","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2023-10-26T11:29:16.292Z","pid":34303,"hostname":"BWT.local","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2023-10-26T11:29:16.293Z","pid":34303,"hostname":"BWT.local","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2023-10-26T11:29:16.294Z","pid":34303,"hostname":"BWT.local","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2023-10-26T11:29:16.294Z","pid":34303,"hostname":"BWT.local","msg":"Changing current active page: page=7912f8b4-6743-41bc-bad0-b4a0a9acffbb"}
+{"level":30,"time":"2023-10-26T11:29:16.294Z","pid":34303,"hostname":"BWT.local","msg":"Changed active page"}
+{"level":30,"time":"2023-10-26T11:29:16.296Z","pid":34303,"hostname":"BWT.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-26T11:29:16.297Z","pid":34303,"hostname":"BWT.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-26T11:29:16.298Z","pid":34303,"hostname":"BWT.local","msg":"Changed active context"}
+{"level":30,"time":"2023-10-26T11:29:16.298Z","pid":34303,"hostname":"BWT.local","msg":"Changing current active page: page=7912f8b4-6743-41bc-bad0-b4a0a9acffbb"}
+{"level":30,"time":"2023-10-26T11:29:16.298Z","pid":34303,"hostname":"BWT.local","msg":"Changed active page"}
+{"level":30,"time":"2023-10-26T11:29:16.299Z","pid":34303,"hostname":"BWT.local","msg":"Start of node method closeContext"}
+{"level":30,"time":"2023-10-26T11:29:16.310Z","pid":34303,"hostname":"BWT.local","msg":"Removed page=e1d130c5-40e1-4811-b93a-48bd05d67cca from context=3eb3dc21-c570-4f4b-8d4c-6ff9273322d7 page stack"}
+{"level":30,"time":"2023-10-26T11:29:16.334Z","pid":34303,"hostname":"BWT.local","msg":"End of node method closeContext"}
+{"level":30,"time":"2023-10-26T11:29:16.338Z","pid":34303,"hostname":"BWT.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-26T11:29:16.338Z","pid":34303,"hostname":"BWT.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-26T11:29:16.353Z","pid":34303,"hostname":"BWT.local","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2023-10-26T11:29:16.400Z","pid":34303,"hostname":"BWT.local","msg":"End of node method closeAllBrowsers"}
