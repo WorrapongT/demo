@@ -5,7 +5,7 @@ Resource    ../Localized/test.robot
 
 *** Keywords ***
 Open Browser Google
-    New Browser     headless=${False}
+    New Browser     
     New Page        ${msg_google} 
 
 Search Text
