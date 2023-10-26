@@ -20,5 +20,8 @@ jobs:
     - name: Install dependencies
       run:  pip install -r requirements.txt
 
-    - name: Run Robot Framework API tests
+    - name: Install Robot Framework
+      run:  rfbrowser init
+
+    - name: Run Robot Framework
       run:  robot -d ../result/pass test_pass.robot
