@@ -24,4 +24,4 @@ jobs:
       run:  rfbrowser init
 
     - name: Run Robot Framework
-      run:  robot -d ../result/pass test_pass.robot
+      run:  robot -d ../result/pass Testsuites/test_pass.robot
