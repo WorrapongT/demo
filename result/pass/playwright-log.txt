@@ -1,44 +1,48 @@
-{"level":30,"time":"2023-10-26T16:49:38.215Z","pid":61234,"hostname":"BWT.local","msg":"Listening on 50515"}
-{"level":30,"time":"2023-10-26T16:49:38.279Z","pid":61234,"hostname":"BWT.local","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2023-10-26T16:49:38.279Z","pid":61234,"hostname":"BWT.local","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2023-10-26T16:49:38.281Z","pid":61234,"hostname":"BWT.local","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2023-10-26T16:49:38.281Z","pid":61234,"hostname":"BWT.local","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2023-10-26T16:49:38.283Z","pid":61234,"hostname":"BWT.local","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2023-10-26T16:49:38.474Z","pid":61234,"hostname":"BWT.local","msg":"End of node method newBrowser"}
-{"level":30,"time":"2023-10-26T16:49:38.477Z","pid":61234,"hostname":"BWT.local","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2023-10-26T16:49:38.477Z","pid":61234,"hostname":"BWT.local","msg":"Start of node method newPage"}
-{"level":30,"time":"2023-10-26T16:49:38.481Z","pid":61234,"hostname":"BWT.local","msg":"Changed active context"}
-{"level":30,"time":"2023-10-26T16:49:38.522Z","pid":61234,"hostname":"BWT.local","msg":"Video path: undefined"}
-{"level":30,"time":"2023-10-26T16:49:38.522Z","pid":61234,"hostname":"BWT.local","msg":"Changed active page"}
-{"level":30,"time":"2023-10-26T16:49:39.544Z","pid":61234,"hostname":"BWT.local","msg":"End of node method newPage"}
-{"level":30,"time":"2023-10-26T16:49:39.547Z","pid":61234,"hostname":"BWT.local","msg":"Start of node method getText"}
-{"level":30,"time":"2023-10-26T16:49:39.547Z","pid":61234,"hostname":"BWT.local","msg":"Strict mode is enabled, find Locator with //a[@aria-label=\"ค้นหารูปภาพ (เปิดแท็บใหม่)\"] in page."}
-{"level":30,"time":"2023-10-26T16:49:39.572Z","pid":61234,"hostname":"BWT.local","msg":"Retrieved text for element //a[@aria-label=\"ค้นหารูปภาพ (เปิดแท็บใหม่)\"] containing ค้นรูป"}
-{"level":30,"time":"2023-10-26T16:49:39.572Z","pid":61234,"hostname":"BWT.local","msg":"End of node method getText"}
-{"level":30,"time":"2023-10-26T16:49:39.576Z","pid":61234,"hostname":"BWT.local","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2023-10-26T16:49:39.577Z","pid":61234,"hostname":"BWT.local","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2023-10-26T16:49:39.578Z","pid":61234,"hostname":"BWT.local","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2023-10-26T16:49:39.579Z","pid":61234,"hostname":"BWT.local","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2023-10-26T16:49:39.580Z","pid":61234,"hostname":"BWT.local","msg":"Changed active context"}
-{"level":30,"time":"2023-10-26T16:49:39.580Z","pid":61234,"hostname":"BWT.local","msg":"Changing current active page: page=0fef8451-e193-43cc-b4ee-97183891ca35"}
-{"level":30,"time":"2023-10-26T16:49:39.580Z","pid":61234,"hostname":"BWT.local","msg":"Changed active page"}
-{"level":30,"time":"2023-10-26T16:49:39.581Z","pid":61234,"hostname":"BWT.local","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2023-10-26T16:49:39.582Z","pid":61234,"hostname":"BWT.local","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2023-10-26T16:49:39.583Z","pid":61234,"hostname":"BWT.local","msg":"Start of node method switchBrowser"}
-{"level":30,"time":"2023-10-26T16:49:39.583Z","pid":61234,"hostname":"BWT.local","msg":"End of node method switchBrowser"}
-{"level":30,"time":"2023-10-26T16:49:39.584Z","pid":61234,"hostname":"BWT.local","msg":"Start of node method switchBrowser"}
-{"level":30,"time":"2023-10-26T16:49:39.584Z","pid":61234,"hostname":"BWT.local","msg":"End of node method switchBrowser"}
-{"level":30,"time":"2023-10-26T16:49:39.585Z","pid":61234,"hostname":"BWT.local","msg":"Changing current active page: page=0fef8451-e193-43cc-b4ee-97183891ca35"}
-{"level":30,"time":"2023-10-26T16:49:39.585Z","pid":61234,"hostname":"BWT.local","msg":"Changed active page"}
-{"level":30,"time":"2023-10-26T16:49:39.587Z","pid":61234,"hostname":"BWT.local","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2023-10-26T16:49:39.587Z","pid":61234,"hostname":"BWT.local","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2023-10-26T16:49:39.588Z","pid":61234,"hostname":"BWT.local","msg":"Changed active context"}
-{"level":30,"time":"2023-10-26T16:49:39.588Z","pid":61234,"hostname":"BWT.local","msg":"Changing current active page: page=0fef8451-e193-43cc-b4ee-97183891ca35"}
-{"level":30,"time":"2023-10-26T16:49:39.588Z","pid":61234,"hostname":"BWT.local","msg":"Changed active page"}
-{"level":30,"time":"2023-10-26T16:49:39.589Z","pid":61234,"hostname":"BWT.local","msg":"Start of node method closeContext"}
-{"level":30,"time":"2023-10-26T16:49:39.591Z","pid":61234,"hostname":"BWT.local","msg":"Removed page=6ec60f8d-17bc-4e1b-b50b-c20bbc51a1c2 from context=33da1a16-cd7b-490b-a952-7aa83a6e70de page stack"}
-{"level":30,"time":"2023-10-26T16:49:39.594Z","pid":61234,"hostname":"BWT.local","msg":"End of node method closeContext"}
-{"level":30,"time":"2023-10-26T16:49:39.597Z","pid":61234,"hostname":"BWT.local","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2023-10-26T16:49:39.597Z","pid":61234,"hostname":"BWT.local","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2023-10-26T16:49:39.609Z","pid":61234,"hostname":"BWT.local","msg":"Start of node method closeAllBrowsers"}
-{"level":30,"time":"2023-10-26T16:49:39.624Z","pid":61234,"hostname":"BWT.local","msg":"End of node method closeAllBrowsers"}
+{"level":30,"time":"2023-10-26T16:52:43.062Z","pid":61911,"hostname":"BWT.local","msg":"Listening on 50574"}
+{"level":30,"time":"2023-10-26T16:52:43.076Z","pid":61911,"hostname":"BWT.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-26T16:52:43.077Z","pid":61911,"hostname":"BWT.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-26T16:52:43.078Z","pid":61911,"hostname":"BWT.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-26T16:52:43.078Z","pid":61911,"hostname":"BWT.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-26T16:52:43.080Z","pid":61911,"hostname":"BWT.local","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2023-10-26T16:52:43.231Z","pid":61911,"hostname":"BWT.local","msg":"End of node method newBrowser"}
+{"level":30,"time":"2023-10-26T16:52:43.233Z","pid":61911,"hostname":"BWT.local","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2023-10-26T16:52:43.233Z","pid":61911,"hostname":"BWT.local","msg":"Start of node method newContext"}
+{"level":30,"time":"2023-10-26T16:52:43.233Z","pid":61911,"hostname":"BWT.local","msg":"Trace file: "}
+{"level":30,"time":"2023-10-26T16:52:43.237Z","pid":61911,"hostname":"BWT.local","msg":"End of node method newContext"}
+{"level":30,"time":"2023-10-26T16:52:43.237Z","pid":61911,"hostname":"BWT.local","msg":"Changed active context"}
+{"level":30,"time":"2023-10-26T16:52:43.239Z","pid":61911,"hostname":"BWT.local","msg":"Start of node method newPage"}
+{"level":30,"time":"2023-10-26T16:52:43.239Z","pid":61911,"hostname":"BWT.local","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2023-10-26T16:52:43.318Z","pid":61911,"hostname":"BWT.local","msg":"Video path: undefined"}
+{"level":30,"time":"2023-10-26T16:52:43.318Z","pid":61911,"hostname":"BWT.local","msg":"Changed active page"}
+{"level":30,"time":"2023-10-26T16:52:44.326Z","pid":61911,"hostname":"BWT.local","msg":"End of node method newPage"}
+{"level":30,"time":"2023-10-26T16:52:44.329Z","pid":61911,"hostname":"BWT.local","msg":"Start of node method getText"}
+{"level":30,"time":"2023-10-26T16:52:44.329Z","pid":61911,"hostname":"BWT.local","msg":"Strict mode is enabled, find Locator with //a[@aria-label=\"ค้นหารูปภาพ (เปิดแท็บใหม่)\"] in page."}
+{"level":30,"time":"2023-10-26T16:52:44.350Z","pid":61911,"hostname":"BWT.local","msg":"Retrieved text for element //a[@aria-label=\"ค้นหารูปภาพ (เปิดแท็บใหม่)\"] containing ค้นรูป"}
+{"level":30,"time":"2023-10-26T16:52:44.350Z","pid":61911,"hostname":"BWT.local","msg":"End of node method getText"}
+{"level":30,"time":"2023-10-26T16:52:44.354Z","pid":61911,"hostname":"BWT.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-26T16:52:44.355Z","pid":61911,"hostname":"BWT.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-26T16:52:44.357Z","pid":61911,"hostname":"BWT.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-26T16:52:44.357Z","pid":61911,"hostname":"BWT.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-26T16:52:44.359Z","pid":61911,"hostname":"BWT.local","msg":"Changed active context"}
+{"level":30,"time":"2023-10-26T16:52:44.359Z","pid":61911,"hostname":"BWT.local","msg":"Changing current active page: page=de0092e6-7485-4eed-abdb-2cda7f1092e0"}
+{"level":30,"time":"2023-10-26T16:52:44.359Z","pid":61911,"hostname":"BWT.local","msg":"Changed active page"}
+{"level":30,"time":"2023-10-26T16:52:44.360Z","pid":61911,"hostname":"BWT.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-26T16:52:44.361Z","pid":61911,"hostname":"BWT.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-26T16:52:44.361Z","pid":61911,"hostname":"BWT.local","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2023-10-26T16:52:44.362Z","pid":61911,"hostname":"BWT.local","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2023-10-26T16:52:44.362Z","pid":61911,"hostname":"BWT.local","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2023-10-26T16:52:44.362Z","pid":61911,"hostname":"BWT.local","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2023-10-26T16:52:44.363Z","pid":61911,"hostname":"BWT.local","msg":"Changing current active page: page=de0092e6-7485-4eed-abdb-2cda7f1092e0"}
+{"level":30,"time":"2023-10-26T16:52:44.363Z","pid":61911,"hostname":"BWT.local","msg":"Changed active page"}
+{"level":30,"time":"2023-10-26T16:52:44.365Z","pid":61911,"hostname":"BWT.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-26T16:52:44.365Z","pid":61911,"hostname":"BWT.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-26T16:52:44.366Z","pid":61911,"hostname":"BWT.local","msg":"Changed active context"}
+{"level":30,"time":"2023-10-26T16:52:44.366Z","pid":61911,"hostname":"BWT.local","msg":"Changing current active page: page=de0092e6-7485-4eed-abdb-2cda7f1092e0"}
+{"level":30,"time":"2023-10-26T16:52:44.366Z","pid":61911,"hostname":"BWT.local","msg":"Changed active page"}
+{"level":30,"time":"2023-10-26T16:52:44.367Z","pid":61911,"hostname":"BWT.local","msg":"Start of node method closeContext"}
+{"level":30,"time":"2023-10-26T16:52:44.369Z","pid":61911,"hostname":"BWT.local","msg":"Removed page=c2042a76-ea6e-4274-8bb4-6a1d80e37f8d from context=f81902f5-41d0-408f-b0a8-28503302f711 page stack"}
+{"level":30,"time":"2023-10-26T16:52:44.373Z","pid":61911,"hostname":"BWT.local","msg":"End of node method closeContext"}
+{"level":30,"time":"2023-10-26T16:52:44.377Z","pid":61911,"hostname":"BWT.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-26T16:52:44.377Z","pid":61911,"hostname":"BWT.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-26T16:52:44.389Z","pid":61911,"hostname":"BWT.local","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2023-10-26T16:52:44.404Z","pid":61911,"hostname":"BWT.local","msg":"End of node method closeAllBrowsers"}
