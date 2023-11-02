@@ -24,9 +24,29 @@ jobs:
       run:  rfbrowser init
 
     - name: Run Robot Framework
-      run:  robot -d result/pass Testsuites/test_pass.robot
+      run:  robot -d reports Testsuites/test_pass.robot
 
+    - name: Upload test results
+      uses: actions/upload-artifact@v1
+      if: always()
+        with:
+          name: reports
+          path: reports
 
+    report:
+        if: always()
+        needs: [test] 
+        runs-on: ubuntu-latest
+        steps:
+        - uses: actions/checkout@v2
+        - name: Download reports
+          uses: actions/download-artifact@v1
+          with:
+            name: reports
+        - name: Send report to commit
+          uses: joonvena/robotframework-reporter-action@v2.3
+          with:
+            gh_access_token: ${{ secrets.GITHUB_TOKEN }}
 
 
 
