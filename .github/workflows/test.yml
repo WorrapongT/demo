@@ -26,8 +26,6 @@ jobs:
     - name: Run Robot Framework
       run:  robot -d result/pass Testsuites/test_pass.robot
 
-    - name: Download Artifact
-      uses: actions/download-artifact@v2
-      with:
-        name:  /home/runner/work/demo/demo/result/pass/log.html
-        path: /Users/localhost/Desktop
+    - name: Download File
+        run: |
+          curl -o log.txt https://github.com/WorrapongT/demo/home/runner/work/demo/demo/result/pass/log.html
