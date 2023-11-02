@@ -12,7 +12,7 @@ Search Text
     Type Text       ${txt_search}    ${msg_robot}
 
 Click Button Search
-    Click           ${btn_search}
+    Keyboard Key    down    Enter   
 
 Verify Text Visible
     [Arguments]    ${text}
