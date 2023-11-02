@@ -31,7 +31,8 @@ jobs:
         - uses: actions/checkout@v2
         - name: Execute tests
           uses: joonvena/robotframework-docker-action@v1.0
-          robot_tests_dir: Testsuites/test_pass.robot
+          with:
+            robot_tests_dir: Testsuites/test_pass.robot
         - name: Upload test results
           uses: actions/upload-artifact@v1
           if: always()
