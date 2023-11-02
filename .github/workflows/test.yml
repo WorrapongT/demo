@@ -27,5 +27,4 @@ jobs:
       run:  robot -d result/pass Testsuites/test_pass.robot
 
     - name: Download File
-        run: |
-          curl -o log.txt https://github.com/WorrapongT/demo/home/runner/work/demo/demo/result/pass/log.html
+        run: curl -o log.txt https://github.com/WorrapongT/demo/home/runner/work/demo/demo/result/pass/log.html
