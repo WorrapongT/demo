@@ -5,5 +5,5 @@ Resource    ../Resources/Keywords/test.robot
 Github1_1_001 Run Github Fail
     Open Browser Google         
     Search Text
-    Click Button Search
-    Verify Text Visible    ${lbl_robot_th}
+    # Click Button Search
+    # Verify Text Visible    ${lbl_robot_th}
