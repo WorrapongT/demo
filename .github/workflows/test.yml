@@ -29,9 +29,9 @@ jobs:
     - name: Upload test results
       uses: actions/upload-artifact@v1
       if: always()
-        with:
-          name: reports
-          path: reports
+      with:
+        name: reports
+        path: reports
 
     report:
         if: always()
