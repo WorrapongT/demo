@@ -16,4 +16,5 @@ Click Button Search
 
 Verify Text Visible
     [Arguments]    ${text}
-    Wait For Elements State    ${text}
+    ${text_search}    Get Text    ${text}
+    Should Be Equal As Strings    ${text_search}    Robot Framework
