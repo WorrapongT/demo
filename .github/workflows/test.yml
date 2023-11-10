@@ -37,8 +37,8 @@ jobs:
       uses: actions/upload-artifact@v1
       if: always()
       with:
-        name: test.txt
-        path: test.txt
+        name: test
+        path: test
 
   report:
       if: always()
