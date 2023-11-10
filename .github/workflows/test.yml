@@ -26,12 +26,19 @@ jobs:
     - name: Run Robot Framework
       run:  robot -d reports Testsuites/test_pass.robot
 
-    - name: Upload test results
+    - name: Upload Test Results
       uses: actions/upload-artifact@v1
       if: always()
       with:
         name: reports
         path: reports
+
+    - name: Upload Test File
+      uses: actions/upload-artifact@v1
+      if: always()
+      with:
+        name: test.txt
+        path: test.txt
 
   report:
       if: always()

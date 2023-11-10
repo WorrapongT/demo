@@ -1,5 +1,6 @@
 *** Settings ***
 Library    Browser
+Library    OperatingSystem
 Resource    ../Repositories/test.robot
 Resource    ../Localized/test.robot
 
@@ -12,3 +13,6 @@ Verify Text Visible
     [Arguments]    ${text}
     ${text_search}    Get Text    ${text}
     Should Be Equal As Strings    ${text_search}    ${msg_facebook_page}
+
+Create File Test
+    Create File    ../../test.txt    Hello, world!
