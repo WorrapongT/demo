@@ -2,8 +2,9 @@
 Resource    ../Resources/Keywords/test.robot
 
 *** Test Cases ***
-Github1_1_001 Run Github Pass
+Github_1_1_001 Run Github Pass
     Open Browser Google            
     Verify Text Visible    ${lbl_fb_en}
-    Create File Test
  
+Github_1_1_002 Create File Test
+    Create File Test
