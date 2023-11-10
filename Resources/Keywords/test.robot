@@ -15,4 +15,4 @@ Verify Text Visible
     Should Be Equal As Strings    ${text_search}    ${msg_facebook_page}
 
 Create File Test
-    Create File    ../test/test.txt    Hello, world!
+    Create File    ../../../test/test.txt    Hello, world!
